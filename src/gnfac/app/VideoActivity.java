@@ -20,8 +20,8 @@ public class VideoActivity extends Activity
         setTitle(getResources().getString(R.string.video_title));
         setContentView(R.layout.web_view);
         WebView wv = (WebView)findViewById(R.id.webview);
-       /// wv.loadUrl("http://www.youtube.com/playlist?list=PLXu5151nmAvT7gHqdNajDBGfGY4u5XMSL&feature=view_all");
-        wv.loadUrl("http://m.youtube.com/playlist?list=PLXu5151nmAvR37ZzpTrs8293OfFezBjJB");
+       /// wv.loadUrl("http://www.youtube.com/playlist?list=PLXu5151nmAvT7gHqdNajDBGfGY4u5XM");
+        wv.loadUrl("https://www.youtube.com/playlist?list=PLXu5151nmAvRs_cO_yoHbvaXfYOqzrzjK");
         finish();
     }
 }
